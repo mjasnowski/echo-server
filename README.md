@@ -13,14 +13,15 @@ This is intended to be run in a server. The Express server is in echoServer.js a
 
 &gt;curl localhost:8080/echo
 
-{"message":"No Message Received"}
+<b>{"message":"No Message Received"}</b>
 
 &gt;curl localhost:8080/echo/foobar
 
-{"message":"foobar"}
+<b>{"message":"foobar"}</b>
 
 4) The Echo Server will also log the messages is receives from a client
-
+<b>
 Message Received: No Message Received
 
 Message Received: foobar
+</b>
