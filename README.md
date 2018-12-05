@@ -12,6 +12,9 @@ This is intended to be run in a server. The Express server is in echoServer.js a
 3) The Echo Server can also be interacted with directly using something like CURL
 
 &gt;curl localhost:8080/echo
+
 {"message":"No Message Received"}
+
 &gt;curl localhost:8080/echo/foobar
+
 {"message":"foobar"}>
