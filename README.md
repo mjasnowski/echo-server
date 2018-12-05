@@ -17,4 +17,4 @@ This is intended to be run in a server. The Express server is in echoServer.js a
 
 &gt;curl localhost:8080/echo/foobar
 
-{"message":"foobar"}>
+{"message":"foobar"}
